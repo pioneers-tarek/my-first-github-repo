@@ -18,13 +18,6 @@ body {
 /* First section  */
 
 /* banner style */
-.header{
-    background-image: url('../Assets/Hero-bg.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
 
 
 .action-section{
@@ -47,12 +40,12 @@ body {
 }
 
 .left h2 {
-  font-size: 24px;
+  font-size: 42px;
   color: #222;
 }
 
 .left p {
-  font-size: 16px;
+  font-size: 24px;
   color: #666;
   margin: 10px 0 20px;
 }
@@ -83,20 +76,21 @@ body {
 
 .stats-section {
   text-align: center;
+  color: black;
   padding: 60px 20px;
   background-color: #FFFFFF;
 }
 
 .stats-section h2 {
-  font-size: 24px;
-  color: #333;
+  font-size: 38px;
+  color: black;
   margin-bottom: 40px;
 }
 
 .stats-box {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
@@ -108,7 +102,7 @@ body {
 }
 
 .stat-item h3 {
-  font-size: 32px;
+  font-size: 80px;
   color: #4f46e5;
   margin: 0;
 }
@@ -128,7 +122,7 @@ body {
     }
 
     .feedback-section h2 {
-      font-size: 2em;
+      font-size: 42px;
       margin-bottom: 30px;
       color: #2d2d2d;
     }
@@ -209,6 +203,7 @@ body {
 
 .contact-form {
   flex: 1;
+  padding: 20px;
 }
 
 form {
@@ -248,58 +243,22 @@ button:hover {
   background-color: #4338ca;
 }
 
-/* Footer  */
-/* 
-.footer {
+
+/* footer css */
+
+
+.footer{
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  flex-direction: column;
   text-align: center;
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  height: 100%;
-  background-color: #ffffff;
-  color: #4b5563;
-}
-
-.footer .logo {
-  color: #4f46e5;
-  font-size: 2.5rem;
-  justify-content: center;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.footer .description {
-  max-width: 600px;
-  margin: 0 auto 30px;
-  font-size: 1rem;
-  color: #6b7280;
-}
-
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.footer-nav a {
-  text-decoration: none;
-  color: #6b7280;
-  font-size: 1rem;
-}
-
-.footer-nav a:hover {
-  color: #4f46e5;
-} */
-
-.footer {
-width: 1440px;
-
-  background-color: white;
   padding: 60px 20px;
+  background-color: white;}
+
+.footer-content{
   text-align: center;
 }
-
 .footer .logo {
   font-size: 2.5rem;
   font-weight: bold;
@@ -595,6 +554,7 @@ h1 {
 
 .highlight {
   font-weight: bold;
+  font-size: ;
 }
 
 .quote {
@@ -635,6 +595,7 @@ h1 {
   margin: 60px auto;
   padding: 20px;
   background-color: #ffffff;
+  opacity: 50%;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   
